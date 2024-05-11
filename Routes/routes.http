@@ -1,0 +1,26 @@
+
+
+GET http://localhost:3000/Services/
+
+###
+GET http://localhost:3000/Services/view
+###
+POST http://localhost:3000/Services/add
+Content-Type: application/json
+
+{
+    "Name": "Submarine",
+    "Phase": "Manufacturing",
+    "PhaseFS": "none"
+}
+###
+PATCH http://localhost:3000/Services/update/613723cdd18ec03e382e0216
+Content-Type: application/json
+
+{
+    "ProductName": "Shammah",
+    "ProductPhase": "Male",
+    "PhaseFailed": "Soccer"
+}
+###
+DELETE  http://localhost:3000/Services/delete/613723cdd18ec03e382e0216

@@ -1,0 +1,42 @@
+{
+  "name": "absoluteonline",
+  "version": "1.0.0",
+  "description": "Alpha website for absolute online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamza-boss/absolute-online.git"
+  },
+  "keywords": [
+    "Node",
+    "MongoDB",
+    "Javascript",
+    "React"
+  ],
+  "author": "Shammah Nhlabathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamza-boss/absolute-online/issues"
+  },
+  "homepage": "https://github.com/Shamza-boss/absolute-online#readme",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.1.3",
+    "nodemailer": "^6.9.9",
+    "nodemon": "^3.0.3",
+    "nodmeon": "^0.0.1-security",
+    "npm": "^10.4.0",
+    "npm-check-updates": "^16.14.15",
+    "sitemap": "^7.1.1",
+    "stream": "^0.0.2",
+    "update": "^0.7.4",
+    "zlib": "^1.0.5"
+  }
+}

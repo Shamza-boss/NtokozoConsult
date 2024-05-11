@@ -1,0 +1,98 @@
+
+  <%- include("./Partials/Header") %>
+  <title>Barista101 &#8211; Contact us!</title>
+  <!--Absolute SEO*-->
+  <meta name="description" content="Contact us about your query, and we will be sure to answer all your questions.">
+  <meta name="keywords" content="Certificate of attendance, Barista, Barista101">
+  <meta name="robots" content="index, follow" />
+ <!--Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-214016625-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-214016625-1');
+</script>
+</head>
+
+<body>
+
+		 <!-- Title -->
+	<section class="colored-section-t" id="title">
+    
+     <!-- Nav Bar -->
+     <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/About">BARISTA101</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+				<a class="nav-link " href="/Home">Home</a><!-- need to configure home link -->
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="/About">Other Services</a>
+			  </li>
+			  <li class="nav-item">
+				<a  class="nav-link active" href="/ContactUS" >Contact</a>
+			  </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+	<div class="container-fluid">
+		<div class="row r-t">
+		  <div class="col-lg-12 col-md-12 title-content">
+	  <div class="title-container"> 
+		<P class="subheading1">LEARN THE ART OF ESPRESSO</P>
+		<h1 class="big-heading"> Join us and perfect your Barista101 skills.</h1>
+		<P class="subheadingServ" style="font-weight: bold;">Our team of experienced Barista's is here to teach you the ins and outs of making delicious espresso-based drinks like cappuccinos, lattes, mochas, and chai coffee. Take our one-day basic Barista101 course and gain the knowledge and confidence you need to become one of the best Barista's in the world. We use only the best products, like Espresso Roma coffee and Melt'd powders, to ensure you have the tools you need to succeed. Sign up today and take the first step towards a successful career in the world of coffee.</P>
+		<a type="button" href="tel:073 378 6400" class="btn btn-primary">learn more</a>
+	  </div>			 
+		  </div>
+		</div>
+	  </div>
+	</section>
+
+<section class="white-section" id="form">
+	<div class="row">
+	
+	<div class="mailing col-lg-8 col-md-8">
+		<form action="mail" method="post">
+			<div class="mb-3">
+				<h1>Email us:</h1>
+				<div id="emailHelp" class="form-text">Send us your Query and we will respond back to you.</div>
+				<br/>
+				<label for="exampleInputEmail1" class="form-label"><strong>Email address:</strong> </label>
+				<input name="MailAddress" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" rows="1">
+			  </div>
+			  <div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label"><strong>Name & Subject:</strong></label>
+				<input name="MailSubject" class="form-control" id="exampleFormControlInput"type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name: Subject" rows="1">
+			  </div>
+			  <div class="mb-3">
+				<label for="exampleFormControlTextarea1" class="form-label"><strong>Message:</strong></label>
+				<textarea name="Mailbody" class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+			  </div>
+			  <div class="col-auto">
+				<button type="submit" name="submit" class="btn btn-primary">Submit</button>
+			  </div>
+		</form>
+	</div>
+	<div class="col-lg-4 col-md-4 ">
+		<h1>Email us:</h1>
+		<div class="list-group-flush">
+			<a href="tel:0787046115" class="list-group-item list-group-item-action 	light-rgb">078 704 6115</a>
+			<a href="mailto:info@barista101.co.za" class="list-group-item list-group-item-action">info@barista101.co.za</a>
+		</div>
+	</div>
+	</div>
+	</div>
+</section>
+<!-- Footer -->
+<%- include("./Partials/footer") %>
