@@ -1,10 +1,11 @@
-
+/* Palette https://huemint.com/illustration-3/ */
+/* https://huemint.com/website-2/#palette=fffffe-1e2896-88b2b1-394b8e */
 body {
     font-family: 'oxygenregular', sans-serif;
     /*font-size: 2.5rem;*/
     font-weight: Regular;
     text-align: center;
-    background:#000 !important;
+    background:#fffffe !important;
 }
 
 h1{
@@ -20,34 +21,37 @@ h1{
   h3, h4, h5, h6 {
     font-family: 'oxygen', sans-serif;
 }
+ul{
+    text-align: left;
+}
 
 p {
     font-family: 'oxygenregular', sans-serif;
     font-weight: Light;
-    color: #353535;
+    color: #88b2b1;
     font-size: 20px;
 }
 /* Headings */
 .subheading1{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #B7C729;
+    color: #88b2b1;
 }
 .subheading1-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #17201B;
+    color: #88b2b1;
 }
 .big-heading {
     font-family: 'oxygenbold', sans-serif;
-    font-size: 4.0625rem;
-    color: #F2F0EB;
+    font-size: 3.7625rem;
+    color: #1e2896;
 }
 
 .subheading{
     font-family: 'oxygenlight', sans-serif;
     font-size: 1.3rem;
-    color: #7c7c7c;
+    color: #88b2b1;
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
@@ -66,32 +70,32 @@ p {
 .subheading1Serv{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.2rem;
-    color: #B7C729;
+    color: #88b2b1;
 }
 .subheading1Serv-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.2rem;
-    color: #17201B !important;
+    color: #88b2b1 !important;
 }
 .big-headingServ1 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 3rem;
-    color: #F2F0EB;
+    color: #1e2896;
 }
 .big-headingServ1-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 2.5rem;
-    color: #17201B !important;
+    color: #1e2896 !important;
 }
 .big-headingServ2 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2.85rem;
-    color: #b3b3b3;
+    color: #394b8e;
 }
 .big-headingServ2-Y {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2.85rem;
-    color: #17201B !important;
+    color: #394b8e !important;
 }
 .serv{
     text-align: left !important;
@@ -118,22 +122,21 @@ p {
 }
 /* Navigation bar */
 .navbar {
-    padding: 0 0 4.5rem;
-    
+    padding: 0 0 4.5rem;    
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 4.5rem;
+    font-size: 1rem !important;
+    color: #1e2896 !important;
     font-weight: bold;
 }
+
 nav{
     margin-left: 15%;
     margin-right: 15%;
     padding: 10px;
     position: absolute;
-    z-index: 2;
-    
+    z-index: 2;    
 }
 
 .nav-item {
@@ -141,8 +144,9 @@ nav{
 }
 
 .nav-link {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-family: 'oxygenregular', sans-serif;
+    color: #1e2896 !important;
 }
 /* Title Section and landing page */
 .title-container{
@@ -151,8 +155,8 @@ nav{
     padding-right: 15%;
 }
 #title {
-    background-color: #000;
-    color: #E0FCFF;
+    background-color: #fffffe;
+    color: #1e2896;
     text-align: center;
 }
 .title-content{
@@ -168,29 +172,27 @@ nav{
     height: auto;
   }
 
-
-
-
-
-
-
 /* Sections */
 
 .colored-section-t {
-    background: rgb(0,0,0);
-    /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 62%, rgba(240,231,225,1) 100%); */
-    color: #000;
+    background: #fffffe;
+    color: #1e2896;
 }
 .colored-section {
     padding: 5% 15% 5% 15% !important;
-    background:#B7C729 !important;
-    color: #17201B !important;
+    background:#fffffe;
+    /* color: #17201B !important; */
     padding: 3%;
     margin-bottom: 5%;
 }
+ 
+.c-about{
+    color: #394b8e;
+}
+
 .colored-sectionCForm {
     padding: 5% 15% 5% 15% !important;
-    background-color: #EBF2F4;
+    background-color: #F9F9F8;
     color: #3C667F;
     padding: 3%;
     margin-bottom: 5%;
@@ -205,8 +207,7 @@ nav{
 }
 .white-section {
     padding: 5% 15% 5% 15% !important;
-    background:#000;
-    color: #F0E7E1;
+    color: #394b8e;
     margin-bottom: 5%;
 }
 form{
@@ -220,12 +221,8 @@ form{
     position:sticky;
     top: 0 ;
 }
-.c-about{
-    background-color: #B7C729 !important;
-    color: #17201B !important;
-}
 #service{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 .container-fluid {
     padding: 0% 15% 0%;
@@ -242,32 +239,15 @@ form{
     border-radius: 20px !important;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; */
 }
-.philCard{
-    /* From https://css.glass */
-    
-    background: rgba(255, 255, 255, 0.15) !important;
-    border-radius: 16px !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-    backdrop-filter: blur(20px) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-}
+
 .list-group-item{
     background: rgba(255, 255, 255, 0.15) !important;
 }
-.philCard:hover{
-    background: rgba(255, 255, 255, 0.25) !important;
-    border-radius: 16px !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-    backdrop-filter: blur(20px) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-}
+
 .list-group-item:hover{
     background: rgba(255, 255, 255, 0.25) !important;
 }
-.philCard{
-    padding: 1%;
-    margin: 1%;
-}
+
 .contactCard{
     margin: 5% !important;
 }
@@ -300,7 +280,7 @@ form{
 
 /* Testimonial Section */
 .Tech-logo {
-    width: 10%;
+    width: 40%;
     margin: 20px 20px 50px;
     /* -webkit-filter: drop-shadow(5px 5px 10px #ffff);
     filter: drop-shadow(5px 5px 10px #ffff); */
@@ -338,6 +318,9 @@ video{
     background-color: #000;
 }
 
+.letterMalig{
+    text-align: left !important;
+}
 
 /* CTA Section */
 .contact-me {
@@ -355,7 +338,7 @@ video{
     /* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(240,231,225,1) 100%); */
 }
 footer.white-section{
-    background: rgb(0,0,0) !important;
+    background: #fffffe !important;
 }
 .aboutEmail{
     padding-top:2%;
@@ -403,12 +386,12 @@ footer.white-section{
 .subheading1{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.1rem;
-    color: #B7C729;
+    color: #88b2b1;
 }
 .big-heading {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2rem !important;
-    color: #F2F0EB;
+    color: #1e2896;
 }
 
 .subheading{
@@ -440,51 +423,37 @@ footer.white-section{
 .subheading1Serv{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1rem;
-    color: #B7C729;
+    color: #88b2b1;
 }
 .subheading1Serv-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1rem;
-    color: #17201B;
+    color: #88b2b1;
 }
 .big-headingServ1 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #F2F0EB;
+    color: #1e2896;
 }
 .big-headingServ1-Y {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #17201B;
+    color: #1e2896;
 }
 .big-headingServ2 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.425rem;
-    color: #7c7c7c;
+    color: #394b8e;
 }
 .big-headingServ2-Y {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.425rem;
-    color: #17201B;
+    color: #394b8e;
 }
 .serv{
     text-align: left !important;
 }
 
-.card-title.close{
-    color: #F2F0EB;
-}
-
-.subheadingServ{
-    font-family: 'oxygenlight', sans-serif;
-    font-size: 1rem;
-    color: #7c7c7c;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-}
-.letterMalig{
-    text-align: left !important;
-}
 .r-t{
     padding: 25% 0% 20% 0% !important ;
 }
@@ -509,18 +478,18 @@ footer.white-section{
 }
 .colored-sectionAbout {
     padding: 5% 5% 5% 5% !important;
-    color: #F0E7E1;
+    color: #88b2b1;
 }
 .colored-section {
     padding: 5% 3% 5% 3% !important;
-    background:#B7C729 !important;
-    color: #17201B !important;
+    background:#fffffe !important;
+    color: #88b2b1 !important;
     padding: 3%;
     margin-bottom: 5%;
 }
 .white-section {
     padding: 5% 3% 5% 3% !important;
-    background:#000;
+    background:#fffffe;
     margin-bottom: 5%;
 }
 .timeline-icons{
@@ -547,8 +516,8 @@ footer.white-section{
     width:500px; 
     height:300px;
     width: 100%;
-
 }
+
 #form{
     padding: 30px;
   }

@@ -37,12 +37,12 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #a4ebf3;
+  background-color: #fffffe;
   color: #000;
 }
 
 .white-section {
-  background-color: #fff;
+  background-color: #fffffe;
 }
 .green-section {
   background-color: #c7ffd8;
@@ -78,7 +78,7 @@ p {
 /* Title Section */
 
 #title {
-  background: rgb(244,249,249);
+  background: #fffffe;
   text-align: left;
 }
 
