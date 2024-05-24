@@ -126,7 +126,7 @@ p {
 }
 
 .navbar-brand {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
     color: #1e2896 !important;
     font-weight: bold;
 }
@@ -148,6 +148,10 @@ nav{
     font-family: 'oxygenregular', sans-serif;
     color: #1e2896 !important;
 }
+.nav-link.active{
+    font-size: 1.4rem;
+    font-weight: bold !important;
+}
 /* Title Section and landing page */
 .title-container{
     /* width: 60%; */
@@ -164,7 +168,7 @@ nav{
   }
 /* title row on home page */
 .r-t{
-    padding: 10% 10% 10% 10% ;
+    padding: 5% 10% 10% 10% ;
 }
 
 .title-image {
@@ -388,6 +392,13 @@ footer.white-section{
     font-size: 1.1rem;
     color: #88b2b1;
 }
+
+.navbar-brand {
+    font-size: 1rem !important;
+    color: #1e2896 !important;
+    font-weight: bold;
+}
+
 .big-heading {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2rem !important;
