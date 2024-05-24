@@ -11,8 +11,8 @@ MailRouter.post("/", (request, response) => {
         host: 'pld109.truehost.cloud',
         port: 465,
         auth: {
-          user: 'website@barista101.co.za',
-          pass: '1UY_OM?e!C^B'
+          user: 'website@ntokozoconsult.com',
+          pass: '1UY_OM?e!C^ENT'
         },
         tls: {
           // do not fail on invalid certs
@@ -20,9 +20,9 @@ MailRouter.post("/", (request, response) => {
         },
       });
       const source = request.body.MailAddress;
-      const to = 'info@barista101.co.za';
-      const subject = request.body.MailSubject;
-      const message = request.body.Mailbody;
+      const to = 'info@ntokozoconsult.com';
+      const subject = `${request.body.MailFullname} Phone: ${request.body.MailPhone}`;
+      const message = `Has traded before: ${request.body.MailTrade}. Amount Planned to spend: R${request.body.MailAmount}. Message: ${request.body.Mailbody}`;
       console.log(`${source}, ${subject}, ${message}`);
       //email composition
       var mailOptions = {
