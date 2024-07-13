@@ -21,9 +21,9 @@ MailRouter.post("/", (request, response) => {
       });
       const source = request.body.MailAddress;
       const to = 'info@ntokozoconsult.com';
-      const subject = `${request.body.MailFullname} Phone: ${request.body.MailPhone}`;
-      const message = `Has traded before: ${request.body.MailTrade}. Amount Planned to spend: R${request.body.MailAmount}. Message: ${request.body.Mailbody}`;
-      console.log(`${source}, ${subject}, ${message}`);
+      const subject = `${request.body.MailFullname}`;
+      const message = `Has traded before: ${request.body.MailTrade}.\nPhone: ${request.body.MailPhone}\nAmount Planned to spend: R${request.body.MailAmount}.\nMessage: ${request.body.Mailbody}`;
+      console.log(`${source}, ${subject}, \n${message}`);
       //email composition
       var mailOptions = {
         from: source,

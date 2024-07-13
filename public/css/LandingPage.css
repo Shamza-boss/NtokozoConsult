@@ -144,12 +144,12 @@ nav{
 }
 
 .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: 'oxygenregular', sans-serif;
     color: #1e2896 !important;
 }
 .nav-link.active{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: bold !important;
 }
 /* Title Section and landing page */
@@ -190,8 +190,8 @@ nav{
     margin-bottom: 5%;
 }
  
-.c-about{
-    color: #394b8e;
+.c-about, .list-group-item{
+    color: #394b8e !important;
 }
 
 .colored-sectionCForm {
@@ -257,9 +257,9 @@ form{
 }
 /* icons */
 .timeline-icons{
-    width: 50%;
+    width: 70%;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -355,10 +355,6 @@ footer.white-section{
     align-items: center;
     justify-content: center;
   }
-  .list-group-item{
-    color: #E0FCFF !important;
-  }
-  
   .floating-img{
     transform: translateY(-10%);
     animation: floater 1.5s infinite;
