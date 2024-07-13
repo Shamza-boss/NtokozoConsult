@@ -1,10 +1,8 @@
 const express = require('express')
 const { SitemapStream, streamToPromise } = require('sitemap')
 const { createGzip } = require('zlib')
-const { Readable } = require('stream')
 
 const SiteRouter = express.Router();
-// const app = express()
 let sitemap
 
 SiteRouter.get('/', function(req, res) {
@@ -17,13 +15,13 @@ SiteRouter.get('/', function(req, res) {
   }
 
   try {
-    const smStream = new SitemapStream({ hostname: 'https://barista101.co.za' })
+    const smStream = new SitemapStream({ hostname: 'https://ntokozoconsult.com' })
     const pipeline = smStream.pipe(createGzip())
 
     // pipe your entries or directly write them.
-    smStream.write({ url: 'https://barista101.co.za/',  changefreq: 'yearly', priority: 0.8 })
-    smStream.write({ url: 'https://barista101.co.za/About',  changefreq: 'yearly', priority: 0.6 }) 
-    smStream.write({ url: 'https://barista101.co.za/Contact',  changefreq: 'yearly', priority: 0.5 })
+    smStream.write({ url: 'https://ntokozoconsult.com/',  changefreq: 'yearly', priority: 0.8 })
+    smStream.write({ url: 'https://ntokozoconsult.com/About',  changefreq: 'yearly', priority: 0.6 }) 
+    smStream.write({ url: 'https://ntokozoconsult.com/Contact',  changefreq: 'yearly', priority: 0.5 })
     
 
     // cache the response
