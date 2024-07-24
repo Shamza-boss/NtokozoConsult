@@ -1,17 +1,19 @@
 /* Palette https://huemint.com/illustration-3/ */
-/* https://huemint.com/website-2/#palette=fffffe-1e2896-88b2b1-394b8e */
+/* https://huemint.com/website-2/#palette=fffffe-fff-A9A9A9-fff */
 body {
     font-family: 'oxygenregular', sans-serif;
     /*font-size: 2.5rem;*/
     font-weight: Regular;
     text-align: center;
-    background:#fffffe !important;
+    background: #000000 !important;
+    /* background:#fffffe !important; */
 }
 
 h1{
     font-family: 'oxygenbold', sans-serif;
     /*font-size: 2.5rem;*/
     font-weight: Bold;
+    color: #ffff;
 }
  h2{
     font-family: 'oxygenbold', sans-serif;
@@ -28,30 +30,30 @@ ul{
 p {
     font-family: 'oxygenregular', sans-serif;
     font-weight: Light;
-    color: #88b2b1;
+    color: #A9A9A9;
     font-size: 20px;
 }
 /* Headings */
 .subheading1{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 .subheading1-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 .big-heading {
     font-family: 'oxygenbold', sans-serif;
     font-size: 3.7625rem;
-    color: #1e2896;
+    color: #fff;
 }
 
 .subheading{
     font-family: 'oxygenlight', sans-serif;
     font-size: 1.3rem;
-    color: #88b2b1;
+    color: #A9A9A9;
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
@@ -70,32 +72,32 @@ p {
 .subheading1Serv{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.2rem;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 .subheading1Serv-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.2rem;
-    color: #88b2b1 !important;
+    color: #A9A9A9 !important;
 }
 .big-headingServ1 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 3rem;
-    color: #1e2896;
+    color: #fff;
 }
 .big-headingServ1-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 2.5rem;
-    color: #1e2896 !important;
+    color: #fff !important;
 }
 .big-headingServ2 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2.85rem;
-    color: #394b8e;
+    color: #fff;
 }
 .big-headingServ2-Y {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2.85rem;
-    color: #394b8e !important;
+    color: #fff !important;
 }
 .serv{
     text-align: left !important;
@@ -127,7 +129,7 @@ p {
 
 .navbar-brand {
     font-size: 2rem !important;
-    color: #1e2896 !important;
+    color: #fff !important;
     font-weight: bold;
 }
 
@@ -146,7 +148,7 @@ nav{
 .nav-link {
     font-size: 1.5rem;
     font-family: 'oxygenregular', sans-serif;
-    color: #1e2896 !important;
+    color: #fff !important;
 }
 .nav-link.active{
     font-size: 1.8rem;
@@ -159,8 +161,9 @@ nav{
     padding-right: 15%;
 }
 #title {
-    background-color: #fffffe;
-    color: #1e2896;
+    /* background-color: #fffffe; */
+
+    color: #fff;
     text-align: center;
 }
 .title-content{
@@ -179,25 +182,30 @@ nav{
 /* Sections */
 
 .colored-section-t {
-    background: #fffffe;
-    color: #1e2896;
+    background: #000000;
+    color: #fff;
 }
 .colored-section {
     padding: 5% 15% 5% 15% !important;
-    background:#fffffe;
+    background: #000000;
+    /* background:#fffffe; */
     /* color: #17201B !important; */
     padding: 3%;
     margin-bottom: 5%;
 }
  
-.c-about, .list-group-item{
-    color: #394b8e !important;
+.c-about{
+    color: #fff;
+}
+.list-group-item{
+    color: #000 !important;
 }
 
 .colored-sectionCForm {
     padding: 5% 15% 5% 15% !important;
-    background-color: #F9F9F8;
-    color: #3C667F;
+    /* background-color: #F9F9F8; */
+    background-color: #000;
+    color: #A9A9A9;
     padding: 3%;
     margin-bottom: 5%;
 }
@@ -206,12 +214,12 @@ nav{
 }
 .colored-r{
     background:#000;
-    color: #F0E7E1;
+    color: #A9A9A9;
     border-radius: 20px;
 }
 .white-section {
     padding: 5% 15% 5% 15% !important;
-    color: #394b8e;
+    color: #fff;
     margin-bottom: 5%;
 }
 form{
@@ -237,6 +245,9 @@ form{
     text-align: left;
 }
 /* Cards */
+.card-intro{
+    background-color: #000 !important;
+}
 .card{
     margin: 1%;
     border: #27262A !important;
@@ -249,7 +260,7 @@ form{
 }
 
 .list-group-item:hover{
-    background: rgba(255, 255, 255, 0.25) !important;
+    background: rgba(109, 64, 64, 0.25) !important;
 }
 
 .contactCard{
@@ -386,19 +397,19 @@ footer.white-section{
 .subheading1{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.1rem;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 
 .navbar-brand {
     font-size: 1rem !important;
-    color: #1e2896 !important;
+    color: #fff !important;
     font-weight: bold;
 }
 
 .big-heading {
     font-family: 'oxygenbold', sans-serif;
     font-size: 2rem !important;
-    color: #1e2896;
+    color: #fff;
 }
 
 .subheading{
@@ -430,32 +441,32 @@ footer.white-section{
 .subheading1Serv{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1rem;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 .subheading1Serv-Y{
     font-family: 'oxygenbold', sans-serif;
     font-size: 1rem;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 .big-headingServ1 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #1e2896;
+    color: #fff;
 }
 .big-headingServ1-Y {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.5rem;
-    color: #1e2896;
+    color: #fff;
 }
 .big-headingServ2 {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.425rem;
-    color: #394b8e;
+    color: #fff;
 }
 .big-headingServ2-Y {
     font-family: 'oxygenbold', sans-serif;
     font-size: 1.425rem;
-    color: #394b8e;
+    color: #fff;
 }
 .serv{
     text-align: left !important;
@@ -485,18 +496,20 @@ footer.white-section{
 }
 .colored-sectionAbout {
     padding: 5% 5% 5% 5% !important;
-    color: #88b2b1;
+    color: #A9A9A9;
 }
 .colored-section {
     padding: 5% 3% 5% 3% !important;
-    background:#fffffe !important;
-    color: #88b2b1 !important;
+    background: #000000 !important;
+    /* background:#fffffe !important; */
+    color: #A9A9A9 !important;
     padding: 3%;
     margin-bottom: 5%;
 }
 .white-section {
     padding: 5% 3% 5% 3% !important;
-    background:#fffffe;
+    /* background:#fffffe; */
+    background: #000000;
     margin-bottom: 5%;
 }
 .timeline-icons{
