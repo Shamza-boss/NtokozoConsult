@@ -76,50 +76,81 @@
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
           <div class="card bg-transparent">
-              <form action="mail" method="post">
-                <div class="mb-3">
-                  <h1>Email us:</h1>
-                  <div id="emailHelp" class="c-about">Send us your Query and we will respond back to you.
-                  </div>
-                  <br />
-                  <label for="exampleInputEmail1" class="c-about"><strong>Email address:</strong> </label>
-                  <input name="MailAddress" type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="name@example.com" rows="1" required>
+            <form action="mail" method="post">
+              <div class="mb-3">
+                <h1>Email us:</h1>
+                <div id="emailHelp" class="c-about">Send us your Query and we will respond back to you.
                 </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="c-about"><strong>Name &
-                      Surname:</strong></label>
-                  <input name="MailFullname" class="form-control" id="exampleFormControlInput" type="text"
-                    class="form-control" id="exampleFormControlInput1" placeholder="Full Name" rows="1" required>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="c-about"><strong>Phone:</strong></label>
-                  <input name="MailPhone" class="form-control" id="exampleFormControlInput" type="text"
-                    class="form-control" id="exampleFormControlInput1" placeholder="Phone number" rows="1" required>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="c-about"><strong>Have you traded before?</strong></label>
-                  <select name="MailTrade" class="form-select" aria-label="Default select example" required>
-                    <option selected>Please choose an answer</option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="c-about"><strong>How much do you plan to
-                      spend?:</strong></label>
-                  <input name="MailAmount" class="form-control" id="exampleFormControlInput" type="number"
-                    class="form-control" id="exampleFormControlInput1" placeholder="R" rows="1" required>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1"
-                    class="c-about"><strong>Message:</strong></label>
-                  <textarea name="Mailbody" class="form-control" id="exampleFormControlTextarea1"
-                    rows="6"></textarea>
-                </div>
-                <div class="col-auto">
-                  <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-                </div>
+                <br />
+                <label for="exampleInputEmail1" class="c-about"><strong>Email address:</strong> </label>
+                <input name="MailAddress" type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com" rows="1" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>Name &
+                  Surname:</strong></label>
+                <input name="MailFullname" class="form-control" id="exampleFormControlInput" type="text"
+                class="form-control" id="exampleFormControlInput1" placeholder="Full Name" rows="1" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>Phone:</strong></label>
+                <input name="MailPhone" class="form-control" id="exampleFormControlInput" type="text"
+                class="form-control" id="exampleFormControlInput1" placeholder="Phone number" rows="1" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>Have you traded before?</strong></label>
+                <select name="MailTrade" class="form-select" aria-label="Default select example" required>
+                <option selected>Please choose an answer</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>How much do you plan to
+                  spend?</strong></label>
+                <input name="MailAmount" class="form-control" id="exampleFormControlInput" type="number"
+                class="form-control" id="exampleFormControlInput1" placeholder="R" rows="1" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>How many years have you traded?</strong></label>
+                <select name="MailYears" class="form-select" aria-label="Default select example" required>
+                <option selected>Please choose an answer</option>
+                <option value="Traded more than 3 years">More than 3 years</option>
+                <option value="Traded less than 3 years">Less than 3 years</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>What type of trading are you interested in?</strong></label>
+                <select name="TradingInterest" class="form-select" aria-label="Default select example" required>
+                <option selected>Please choose an answer</option>
+                <option value="wants to learn trading basics">Basics of trading</option>
+                <option value="wants to learn advanced trades where they take trades themselves">Advanced trades where I take trades myself?</option>
+                <option value="Wants to use EA or automated trades">Im interested in using an EA (robot) to trade for me</option>                    
+                <option value="wants to learn all of the above">Im interested in all of the above</option>
+                </select>
+              </div><div class="mb-3">
+                <label for="startDate" class="c-about"><strong>When were you planning on starting to trade?</strong></label>
+            <input name="StartDate" id="startDate" class="form-control" type="date" required/>
+            <span id="startDateSelected"></span>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="c-about"><strong>Why do you want to trade?</strong></label>
+                <select name="MailReason" class="form-select" aria-label="Default select example" required>
+                <option selected>Please choose an answer</option>
+                <option value="wants to learn trading basics">lost money before and need new strategy</option>
+                <option value="wants to learn advanced trades where they take trades themselves">Want to gain serious financial knowledge</option>
+                <option value="Wants to use EA or automated trades">Do not have time and need EA support</option>                    
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1"
+                class="c-about"><strong>Message:</strong></label>
+                <textarea name="Mailbody" class="form-control" id="exampleFormControlTextarea1"
+                rows="6"></textarea>
+              </div>
+              <div class="col-auto">
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+              </div>
               </form>
           </div>
         </div>
